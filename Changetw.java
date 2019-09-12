@@ -1,6 +1,7 @@
 import java.util.Scanner;
-public class Change
+public class Changetw
 {
+
     public static void main(String[] args)
     {
         double purchaseAmount, cashPaid, temp;
