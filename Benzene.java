@@ -14,6 +14,7 @@ public class Benzene
         marker.down();
         marker.turn(60);
         for (int i = 1; i < 7; i++)
+        //loop to make hexagon
         {
             marker.turn(60);
             marker.move(200);

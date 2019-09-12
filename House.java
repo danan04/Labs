@@ -14,6 +14,7 @@ public class House
         marker.down();
         marker.turn(90);
         for (int i = 1; i < 5; i++)
+        //loop to make square
         {
             marker.turn(90);
             marker.move(300);

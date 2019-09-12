@@ -18,12 +18,15 @@ public class Change
         change = (int)(temp * 100);
         System.out.println("Number of quarters = " + (change/25));
         change = change - (change/25)*25;
+        //change in quarters
         
         System.out.println("Number of dimes = " + (change/10));
         change = change - (change/10)*10;
+        //change in dimes
       
         System.out.println("Number of nickels = " + (change/5));
         change = change - (change/5)*5;
+        //change in nickels
         
         System.out.println("Number of pennies = " + change);
     }
